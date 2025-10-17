@@ -1,0 +1,55 @@
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# SQLite database (for local development)
+db.sqlite3
+
+# Environment variables
+.env
+
+# Django static and media files
+/staticfiles/
+media/
+*.log
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Compiled or distribution files
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# PYC / coverage / testing
+.coverage
+.tox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+
+# Git / deployment
+*.bak
+*.orig
+*.rej
+*.tmp
+*.log
+
+# Django-specific
+local_settings.py
